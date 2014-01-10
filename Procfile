@@ -1,1 +1,1 @@
-web: phantomjs seo.js
+web: phantomjs seo.js http://vamo.la/

@@ -11,7 +11,7 @@ var env = system.env;
 var port = parseInt(require('system').env.PORT || 3333); 
 
 var server = require('webserver').create();
-var urlPrefix = system.args[2];
+var urlPrefix = system.args[1];
 
 var parse_qs = function(s) {
     var queryString = {};
